@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.content {
+    display: flex;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
