@@ -1,18 +1,30 @@
 body {
     margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
-
-
+/* start header area */
 .header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.header-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+/* start banner */
 .header-banner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 12px 48px;
 }
 
 .header-logo {
@@ -23,36 +35,74 @@ body {
 
 .header-banner-links ul {
     display: flex;
+    font-size: 18px;
+    list-style: none;
+    gap: 8px;
 }
 
 .header-banner-links a {
     text-decoration: none;
     color: #E5E7EB;
 }
+/* end banner */
 
+/* start hero content */
 .hero-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 32px;
-    padding: 32px;
+    padding: 48px;
+    padding-top: 0;
 }
 
-.quote {
-    background-color: #E5E7EB;
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    max-width: 400px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content .image-container {
     display: flex;
+    flex-shrink: 0;
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+}
+/* end hero content */
+/* end header area */
+
+/* sart main content */
+.content {
+    display: flex;
+    max-width: 1000px;
     flex-direction: column;
-    align-items: center;
 }
 
-.quote-text {
-    max-width: 500px;
+/* start quote area */
+.quote {
+background-color: #E5E7EB;
+display: flex;
 }
+/* end quote area */
 
+/* start call to action */
+
+/* end call to action */
+/* end main content */
+
+/* start footer area */
 .footer {
-    background-color: #1F2937;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+background-color: #1F2937;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+/* end footer area */
