@@ -3,7 +3,14 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
-/* start header area */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+/* Header start */
 .header {
     background-color: #1F2937;
     display: flex;
@@ -12,14 +19,7 @@ body {
     align-items: center;
 }
 
-.header-content {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    justify-content: center;
-}
-
-/* start banner */
+/* Banner start */
 .header-banner {
     display: flex;
     justify-content: space-between;
@@ -44,6 +44,51 @@ body {
     text-decoration: none;
     color: #E5E7EB;
 }
+/* Banner end */
+
+/* Hero start */
+
+/* Hero end */
+/* Header end */
+
+
+/* Main start */
+/* Main end */
+
+
+/* Footer start */
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+/* Footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+/* start header area */
+
+
+/* start banner */
+
 /* end banner */
 
 /* start hero content */
@@ -78,8 +123,8 @@ body {
 /* end hero content */
 /* end header area */
 
-/* sart main content */
-.content {
+/* start main content */
+.content-container {
     display: flex;
     max-width: 1000px;
     flex-direction: column;
